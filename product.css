@@ -49,7 +49,7 @@ header{
   }
   
   header nav a:hover{
-    background-color:#4d2404;
+    background-color:#e91e63;
     border-radius:50px;
   }
 
@@ -82,6 +82,15 @@ main #user-button {
     opacity: 1;
     display: block !important;
   }
+}
+
+.frutos_secos{
+  width: 100%;
+  padding: 18em;
+}
+.link{
+  color: white;
+  text-decoration: none;
 }
 main #user-button .u-card {
   border-radius: 100%;

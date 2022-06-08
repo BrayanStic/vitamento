@@ -54,7 +54,7 @@ header{
   }
   
   header nav a:hover{
-    background-color:#4d2404;
+    background-color:#e91e63;
     border-radius:50px;
   }
   
@@ -102,17 +102,28 @@ header{
     line-height:50px;
 }
 
-.titulo-principal{
-    text-align: center;
-    font-size: 2em;
-    padding: 1em;
-    clear:left;
-    color: rgba(0,0,0,30%);
-    margin-bottom: 0;
+
+
+.titulo-principal {
+  font-size: 140px;
+  text-decoration: solid;
+  margin: 0;
+}
+
+.titulo-principal span {
+  font-size:larger;
+  color: #e91e63;
+}
+
+.titulo-secundario{
+  font-size: 100px;
+  text-decoration: solid;
+  text-align: center;
 }
 
 .principal {
-    padding: 3em 15em;
+    padding: 1em 5em 0em 5em;
+    font-size: 20px;
     background:  #FEFEFE;
     margin-bottom: 0;
 }
